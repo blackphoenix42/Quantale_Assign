@@ -1,0 +1,17 @@
+.bitcoin {
+  margin: 300px auto;
+  width: 25%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
+.blink {
+  animation: blinker 1s linear;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
